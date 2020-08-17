@@ -1,0 +1,55 @@
+html {
+  font-size: 10px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/4/4f/Fishman_120309_MSG.JPG) bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+ 
+  
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 120vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 3.5rem solid rgb(247, 15, 15);
+  border-radius: .5rem;
+  margin: 2rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 8rem;
+  text-align: center;
+  color: white;
+  background: rgba(46, 34, 150, 0.4);
+  text-shadow: 0 0 .5rem black;
+  border-radius: 50%;
+}
+
+.playing {
+  transform: scale(1.5);
+  border-color: rgb(247, 15, 15);
+  box-shadow: rgba(46, 34, 150, 0.4);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color:  rgb(201, 56, 20);
+}
+
